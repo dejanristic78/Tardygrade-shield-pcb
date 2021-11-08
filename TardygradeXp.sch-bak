@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 6900 3650 0    50   UnSpc ~ 0
+DAC2
+Text GLabel 6900 3750 0    50   UnSpc ~ 0
+5V_Rail
+Text GLabel 6900 3850 0    50   UnSpc ~ 0
+DAC1
+Text GLabel 6900 3950 0    50   UnSpc ~ 0
+VBAT_Drain
+Text GLabel 6900 4050 0    50   UnSpc ~ 0
+GPIO36
+Text GLabel 6900 4150 0    50   UnSpc ~ 0
+SCK
+Text GLabel 6900 4250 0    50   UnSpc ~ 0
+MOSI
+Text GLabel 6900 4350 0    50   UnSpc ~ 0
+MISO
+Text GLabel 7800 3550 2    50   UnSpc ~ 0
+SDA
+Text GLabel 7800 3650 2    50   UnSpc ~ 0
+SCL
+Text GLabel 7800 3750 2    50   UnSpc ~ 0
+GPIO36
+Text GLabel 7800 3850 2    50   UnSpc ~ 0
+GPIO21
+Text GLabel 7800 3950 2    50   UnSpc ~ 0
+EN
+Text GLabel 7800 4050 2    50   UnSpc ~ 0
+TX
+Text GLabel 7800 4150 2    50   UnSpc ~ 0
+Reset
+Text GLabel 7800 4250 2    50   UnSpc ~ 0
+RX
+Text GLabel 7800 4350 2    50   UnSpc ~ 0
+3V3_Drain
+$Comp
+L power:GND #PWR0101
+U 1 1 6132F1B6
+P 6900 3550
+F 0 "#PWR0101" H 6900 3300 50  0001 C CNN
+F 1 "GND" V 6905 3422 50  0000 R CNN
+F 2 "" H 6900 3550 50  0001 C CNN
+F 3 "" H 6900 3550 50  0001 C CNN
+	1    6900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L 111symbols:XpansionBoard X2
+U 1 1 61332AC7
+P 7400 2400
+F 0 "X2" H 7400 3065 50  0000 C CNN
+F 1 "XpansionBoard" H 7400 2974 50  0000 C CNN
+F 2 "222footprintsXp:XpansionBoard" H 7400 2400 50  0001 C CNN
+F 3 "" H 7400 2400 50  0001 C CNN
+	1    7400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 111symbols:XpansionHeader X1
+U 1 1 61332F87
+P 7350 3950
+F 0 "X1" H 7350 4615 50  0000 C CNN
+F 1 "XpansionHeader" H 7350 4524 50  0000 C CNN
+F 2 "222footprintsXp:XpansionHeader" H 7350 3950 50  0001 C CNN
+F 3 "" H 7350 3950 50  0001 C CNN
+	1    7350 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 2100 0    50   UnSpc ~ 0
+DAC2
+Text GLabel 6950 2200 0    50   UnSpc ~ 0
+5V_Rail
+Text GLabel 6950 2300 0    50   UnSpc ~ 0
+DAC1
+Text GLabel 6950 2400 0    50   UnSpc ~ 0
+VBAT_Drain
+Text GLabel 6950 2500 0    50   UnSpc ~ 0
+GPIO36
+Text GLabel 6950 2600 0    50   UnSpc ~ 0
+SCK
+Text GLabel 6950 2700 0    50   UnSpc ~ 0
+MOSI
+Text GLabel 6950 2800 0    50   UnSpc ~ 0
+MISO
+$Comp
+L power:GND #PWR0102
+U 1 1 6133761D
+P 6950 2000
+F 0 "#PWR0102" H 6950 1750 50  0001 C CNN
+F 1 "GND" V 6955 1872 50  0000 R CNN
+F 2 "" H 6950 2000 50  0001 C CNN
+F 3 "" H 6950 2000 50  0001 C CNN
+	1    6950 2000
+	0    1    1    0   
+$EndComp
+Text GLabel 7850 2000 2    50   UnSpc ~ 0
+SDA
+Text GLabel 7850 2100 2    50   UnSpc ~ 0
+SCL
+Text GLabel 7850 2200 2    50   UnSpc ~ 0
+GPIO36
+Text GLabel 7850 2300 2    50   UnSpc ~ 0
+GPIO21
+Text GLabel 7850 2400 2    50   UnSpc ~ 0
+EN
+Text GLabel 7850 2500 2    50   UnSpc ~ 0
+TX
+Text GLabel 7850 2600 2    50   UnSpc ~ 0
+Reset
+Text GLabel 7850 2700 2    50   UnSpc ~ 0
+RX
+Text GLabel 7850 2800 2    50   UnSpc ~ 0
+3V3_Drain
+$EndSCHEMATC

@@ -1,0 +1,9 @@
+(module ThroughHole (layer F.Cu) (tedit 613D5C4C)
+  (fp_text reference REF** (at -0.15 4.8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ThroughHole (at -0.05 -5.85) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+)

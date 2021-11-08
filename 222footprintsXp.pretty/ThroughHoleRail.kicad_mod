@@ -1,0 +1,9 @@
+(module ThroughHoleRail (layer F.Cu) (tedit 613D5DD3)
+  (fp_text reference REF** (at 0 3.81) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ThroughHoleRail (at 0 -3.81) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+)
